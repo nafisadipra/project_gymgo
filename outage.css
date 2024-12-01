@@ -1,0 +1,42 @@
+#map {
+    height: 350px;
+    width: 100%;
+    margin: 0vw 0vw 1vw 0vw;
+}
+
+#map-section {
+    padding: 1vw 0vw;
+}
+
+#map-gas {
+    color: red;
+}
+
+#map-water {
+    color: blue;
+}
+
+#map-electricity {
+    color: green;
+}
+
+#table-section {
+    font-size: small;
+}
+
+#pagination-section nav ul li a {
+    font-size: small
+}
+
+.pagination.no-border {
+    border: none;
+    box-shadow: none;
+}
+
+.pagination.no-border .page-item .page-link {
+    border: none;
+}
+
+.utility-svg {
+    height: 2vw;
+}

@@ -1,6 +1,6 @@
 <?php
 $servername = "localhost";
-$username = "12345678";
+$username = "root";
 $password = "";
 $dbname = "gymgo";
 

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./geo.css">
+    <link rel="stylesheet" href="./leaflet.css">
+    <link rel="stylesheet" href="./outage.css">
     <title>GYM GO</title>
 </head>
 <body>
@@ -31,39 +33,34 @@
             </div>
         </div>
     </header>
-    <main>
+    <main id="main-section">
         <div class="Container2">
             <div class="top-container">
                <p class="slogan">Find Your Fit, Manage With Ease</p>
-               
             </div>
         </div>
         <div class="container3">
             <h1 class="find">Find Your GYM</h1>
             <div class="search">
                 <form action="#">
-                    <input type="text" placeholder="Search by address, postal code,etc..."
-                           name="search">
+                    <input type="text" placeholder="Search by address, postal code,etc..." name="search" id="areaInput" class="form-control" autocomplete="off">
                     <button class="sb">
                         <img src="./Images/search-svgrepo-com.svg" width="28vw" height="33vw">
                     </button>
                     <button class="filb">
-                        
                         <img src="./Images/menu-list-dropdown-svgrepo-com.svg" width="40vw" height="28vw" > Filter
-                        
                     </button>
                 </form>
             </div>
+            <ul id="suggestions" class="list-group"></ul>
         </div>
         <div class="container4">
             <div class="sec1">
                 <img class="g1" src="./Images/25287987_gym_facebook_cover_10.jpg">
                 <img class="g1" src="./Images/82521823_9946860.jpg">
-
             </div>
             <div class="sec2">
-                <img class="g2" src="./Images/GoogleMapTA.jpeg">
-
+                <div id="map"></div>
             </div>
         </div>
     </main>
@@ -106,4 +103,6 @@
         </div>
 
     </footer>
+    <script src="./leaflet.js"></script>
+    <script src="./outage.js"></script>
 </body>    

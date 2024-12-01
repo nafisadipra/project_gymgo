@@ -1,0 +1,31 @@
+<!doctype html>
+
+<!-- html -->
+<html lang="en">
+
+<!-- head -->
+
+<head>
+    <link rel="stylesheet" href="./leaflet.css">
+    <link rel="stylesheet" href="./outage.css">
+</head>
+
+<!-- body -->
+
+<body>
+    <!-- main -->
+    <main id="main-section">
+        <h2 id="sub-div-header">Outage Map</h2>
+        <div class="mb-3">
+            <input type="text" id="areaInput" class="form-control" placeholder="🔍 Search area" autocomplete="off">
+            <ul id="suggestions" class="list-group"></ul>
+        </div>
+        <div id="map"></div>
+    </main>
+
+    <!-- script -->
+    <script src="./leaflet.js"></script>
+    <script src="./outage.js"></script>
+</body>
+
+</html>
