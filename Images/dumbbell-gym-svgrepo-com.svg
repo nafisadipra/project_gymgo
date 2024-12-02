@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   version="1.1"
+   id="Layer_1"
+   viewBox="0 0 512 512"
+   xml:space="preserve"
+   sodipodi:docname="dumbbell-gym-svgrepo-com.svg"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs7" /><sodipodi:namedview
+   id="namedview7"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="0.68612601"
+   inkscape:cx="182.91101"
+   inkscape:cy="181.45355"
+   inkscape:window-width="1632"
+   inkscape:window-height="880"
+   inkscape:window-x="34"
+   inkscape:window-y="40"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="Layer_1" />
+<ellipse
+   style="fill:#e00000;fill-opacity:1;stroke-width:10;stroke:#ffffff;stroke-opacity:1;stroke-dasharray:none"
+   cx="256"
+   cy="256"
+   id="circle1"
+   rx="238.5105"
+   ry="232.68066" />
+
+<rect
+   x="155.42499"
+   y="241.34833"
+   style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:9.45438;stroke-dasharray:none;stroke-opacity:1"
+   width="200.00375"
+   height="29.310762"
+   id="rect1" />
+
+<path
+   style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:9.45438;stroke-dasharray:none;stroke-opacity:1"
+   d="M 114.69556,302.16566 H 79.487949 c -4.084105,0 -7.395465,-3.19618 -7.395465,-7.13821 v -78.05119 c 0,-3.94203 3.31136,-7.13821 7.395465,-7.13821 h 35.207611 c 4.0841,0 7.39739,3.19618 7.39739,7.13821 v 78.05119 c -0.002,3.94018 -3.31329,7.13821 -7.39739,7.13821 z"
+   id="path2" />
+<path
+   style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:9.45438;stroke-dasharray:none;stroke-opacity:1"
+   d="m 140.45217,313.88959 h -35.20568 c -4.08411,0 -7.395465,-3.19617 -7.395465,-7.1382 V 205.2514 c 0,-3.94203 3.311355,-7.13821 7.395465,-7.13821 h 35.20761 c 4.0841,0 7.39739,3.19618 7.39739,7.13821 v 101.49999 c -0.002,3.9411 -3.31329,7.1382 -7.39932,7.1382 z"
+   id="path3" />
+<path
+   style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:9.45438;stroke-dasharray:none;stroke-opacity:1"
+   d="m 173.02975,328.54497 h -35.20857 c -4.08411,0 -7.39547,-3.19616 -7.39547,-7.1382 V 190.59509 c 0,-3.94204 3.31136,-7.13821 7.39547,-7.13821 h 35.20761 c 4.0841,0 7.39739,3.19617 7.39739,7.13821 v 130.81075 c -9.7e-4,3.94297 -3.31233,7.13913 -7.39643,7.13913 z"
+   id="path4" />
+<path
+   style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:9.45438;stroke-dasharray:none;stroke-opacity:1"
+   d="m 387.82251,209.83434 h 35.20762 c 4.0841,0 7.39546,3.19618 7.39738,7.13821 v 78.05119 c 0,3.94203 -3.31135,7.13821 -7.39546,7.13821 h -35.20761 c -4.0841,0 -7.39546,-3.19618 -7.39546,-7.13821 v -78.05119 c -0.003,-3.94018 3.30943,-7.13821 7.39353,-7.13821 z"
+   id="path5" />
+<path
+   style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:9.45438;stroke-dasharray:none;stroke-opacity:1"
+   d="m 362.06397,198.11041 h 35.20762 c 4.0841,0 7.39546,3.19617 7.39738,7.1382 V 306.7486 c 0,3.94203 -3.31135,7.14007 -7.39546,7.14007 H 362.0659 c -4.0841,0 -7.39546,-3.19618 -7.39546,-7.13821 V 205.25047 c -0.002,-3.94296 3.30943,-7.14006 7.39353,-7.14006 z"
+   id="path6" />
+<path
+   style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:9.45438;stroke-dasharray:none;stroke-opacity:1"
+   d="m 329.4893,183.45503 h 35.2076 c 4.0841,0 7.39546,3.19616 7.39546,7.1382 v 130.81075 c 0,3.94204 -3.31136,7.14006 -7.39546,7.14006 h -35.2076 c -4.08412,0 -7.3974,-3.19616 -7.3974,-7.1382 V 190.59509 c 0.002,-3.9439 3.31232,-7.14006 7.3974,-7.14006 z"
+   id="path7" />
+</svg>

@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./geo.css">
     <link rel="stylesheet" href="./leaflet.css">
-    <link rel="stylesheet" href="./outage.css">
+    <link rel="stylesheet" href="./gymmap.css">
     <title>GYM GO</title>
 </head>
 <body>
     <header>
         <div class="head-container">
             <div>
-                <img src="./Images/GYMGO.svg" width="160vw">
+                <img src="./Images/GymGo.png" width="190vw" style="padding-left: 2vw;">
             </div>
             <div class="nav-content">
                 <nav class="navbar">
@@ -25,22 +25,24 @@
                     </ul>
                 </nav>
             </div>
-            <div class="nav-button">
-                <input class="top-button" type="button" value=" Sign Up">
-            </div>
-            <div class="nav-button">
-                <a href="./login.html"><input class="top-button1"   type="button" value="Log In"></a>
+            <div style="display: flex; padding: 1.5vw 0vw;">
+                <div class="nav-button">
+                    <input class="top-button" type="button" value=" Sign Up">
+                </div>
+                <div class="nav-button">
+                    <a href="./login.html"><input class="top-button1"   type="button" value="Log In"></a>
+                </div>
             </div>
         </div>
     </header>
-    <main id="main-section">
+    <main id="main-section" style="padding: 0vw 1.5vw;">
         <div class="Container2">
             <div class="top-container">
                <p class="slogan">Find Your Fit, Manage With Ease</p>
             </div>
         </div>
         <div class="container3">
-            <h1 class="find">Find Your GYM</h1>
+            <p class="find">Find Your GYM<p>
             <div class="search">
                 <form action="#">
                     <input type="text" placeholder="Search by address, postal code,etc..." name="search" id="areaInput" class="form-control" autocomplete="off">
@@ -56,8 +58,6 @@
         </div>
         <div class="container4">
             <div class="sec1">
-                <img class="g1" src="./Images/25287987_gym_facebook_cover_10.jpg">
-                <img class="g1" src="./Images/82521823_9946860.jpg">
             </div>
             <div class="sec2">
                 <div id="map"></div>
@@ -94,15 +94,11 @@
         <div class="sub9">
             <p class="sub91"><b>Get in Touch</b></p>
             <p class="sub92">
-            <a class="f1"href="#"><img class="fc"src="./image/headset-svgrepo-com.svg" > Support@megakit.com</a><br>
-            <a class="f1"href="#"><img class="fc" src="./image/phone-rotary-svgrepo-com.svg"> +23-456-6588</a><br>
-
-
+                <a class="f1"href="#"><img class="fc"src="./image/headset-svgrepo-com.svg" > Support@megakit.com</a><br>
+                <a class="f1"href="#"><img class="fc" src="./image/phone-rotary-svgrepo-com.svg"> +23-456-6588</a><br>
             </p>
-            
         </div>
-
     </footer>
     <script src="./leaflet.js"></script>
-    <script src="./outage.js"></script>
+    <script src="./gymmap.js"></script>
 </body>    

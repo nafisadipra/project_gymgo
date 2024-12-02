@@ -1,10 +1,25 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2000;
+    background-color: rgba(0, 0, 0, 0.747);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid #4fff82;
+}
+
+body {
+    padding-top: 6.5vw;
+    background-color:rgb(28, 28, 28);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .head-container{
     display: flex;
     justify-content:space-between;
     margin: calc(-50vw + 50%);
     align-items: center;
-    background-color: rgb(207, 32, 41);
-    border-bottom: 1px solid rgba(198, 89, 89, 0.835);
 }
 .navbar ul{
     display: flex;
@@ -17,38 +32,36 @@
     transition: 200ms;
     color: #ffffff;
     text-align: center;
-    font-size: 1.2vw;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+    font-size: 0.95vw;
 } 
 .top-button{
-    background-color: white;
-    border: 0.1vw solid rgb(254, 254, 254);
-    font-size: 1.3vw;
-    padding: 0.8vw 1.7vw;
-    margin:1.7vw 5vw;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #4fff82;
+    font-size: 1vw;
+    padding: 0.6vw 1vw;
+    border: 1px solid #4fff82;
+    border-radius: 1vw;
+    
 }
 .top-button1{
-    background-color: rgb(234, 72, 72);
+    background-color: rgba(0, 0, 0, 0);
     border-radius: 1vw;
-    border: 0.1vw solid rgb(216, 54, 54);
-    font-size: 1.3vw;
-    padding: 0.6vw 1.7vw;
-    margin: 3px 3vw;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
-    color: #ffffff;
-    
+    border: 1px solid #4fff82;
+    font-size: 1vw;
+    padding: 0.6vw 1.4vw;
+    color: #4fff82;
+    margin-left: 1vw;
+    margin-right: 2vw;    
 }
-.top-container{
-    background-image: url(./Images/temple-noble-art-x7H8f-gjmDU-unsplash.jpg);
+.top-container {
+    background-image: url(./Images/Chris-Chapman_3677-1024x683.webp);
     background-size: 100%;
     height: 30vw;
-    margin:0.74vw 0vw 0vw 0vw;
-    backdrop-filter: blur;
-
-    
-
+    margin: 0.74vw 0vw 0vw 0vw;
+    backdrop-filter: blur(10px);
+    border: 1px solid #4fff82;
+    box-shadow: 0 0 20px 4px rgba(79, 255, 130, 0.6),
+                0 0 40px 8px rgba(79, 255, 130, 0.4);
+    border-radius: 15px;
 }
 .slogan{
     position:absolute;
@@ -56,18 +69,16 @@
     padding: 5vw 6vw 0vw 0vw;
     margin-top:8vw;
     margin-left: 15vw;
-    color: rgb(255, 255, 255);
+    color: #4fff82;
 
 }
 .container3{
-    height: 30vw;
+
 }
 .find{
     text-align: center;
-    padding-top: 4vw;
-    text-underline-offset: 1.5vw ;
-    text-decoration: underline red ;
     font-size: 3vw;
+    color: #f8f0f0;
     
 }
 .search {
@@ -81,18 +92,18 @@
     padding-left: 1vw;
     padding-right: 20vw;
     padding-bottom: 0.5vw;
-    margin-top: 6vw;
-    margin-right: 1.5vw;
     width: 30vw;
     font-size: 17px;
     border-radius:9px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-color: #4fff82;
+    background-color: rgb(141, 141, 141);
+
 }
 
 
 .sb{
     border-radius: 7vw;
-    border-color: red;
+    border-color: #4fff82;
     margin-left: 1vw;
 }
 .filb{
@@ -102,32 +113,28 @@
     padding-right: 3vw;
     font-size: 1.5vw;
     color: rgb(94, 91, 91);
-    border-color: red;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+    border-color: 1px solid #4fff82;
 }
 .container4{
-    height: 30vw;
+    height: 60vw;
     display: flex;
-    background-color: rgb(193, 231, 241);
     margin-bottom: 0.7vw;
     
 }
 .sec1{
-    
     border: 3vw;
     margin-top: 0.5vw;
-    width: 42vw;
-    height: 29vw;
-    background-color: rgb(250, 250, 255);
-
+    width: 40vw;
+    height: 40vw;
+    background-color: black;
 }
 .sec2{
     margin-top: 0.5vw;
     border: 3vw;
     margin-left: 0.25vw;
     width: 60vw;
-    height: 29vw;
+    height: 40vw;
+    border: .2vw solid#4fff82;
     background-color: rgb(250, 250, 255);
 
 }
@@ -163,13 +170,18 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .g1{
-    height: 13vw;
-    width: 30vw;
-   margin-left: 3vw;
-   margin-top: 0.8vw;
-}
-.g2{
-    height: 29vw;
-    width: 60vw;
+    height: 100%;
+    width: 100%;
 }
 
+.gym-details {
+    height: 100%;
+    width: 100%;
+    color:#4fff82;
+    border: .2vw solid#4fff82;
+    font-size: xx-large;
+}
+
+.gym-details h3{
+    margin-top: 80%;
+}
