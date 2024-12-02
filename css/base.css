@@ -1,0 +1,85 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2000;
+    background-color: rgba(0, 0, 0, 0.747);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid #4fff82;
+}
+
+body {
+    padding-top: 6.5vw;
+    background-color:rgb(28, 28, 28);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.head-container{
+    display: flex;
+    justify-content:space-between;
+    margin: calc(-50vw + 50%);
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3vw;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 0vw 2vw;
+    transition: 200ms;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.95vw;
+} 
+.top-button{
+    background-color: #4fff82;
+    font-size: 1vw;
+    padding: 0.6vw 1vw;
+    border: 1px solid #4fff82;
+    border-radius: 1vw;
+    
+}
+.top-button1{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 1vw;
+    border: 1px solid #4fff82;
+    font-size: 1vw;
+    padding: 0.6vw 1.4vw;
+    color: #4fff82;
+    margin-left: 1vw;
+    margin-right: 2vw;    
+}
+
+.foot{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(10, 10, 10, 0.929);
+    height: 30vw;
+    margin: calc(-50vw + 50%);}
+    
+    
+.sub9{
+    margin-top: 9vw;
+    margin-bottom: 1vw;
+}
+.sub91{
+    text-align: cleft;
+    font-size: 2vw;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 1.5vw;
+}
+.sub92{
+    font-size: 1vw;
+    color: white;
+    text-align: left;
+    margin-bottom: 1.5vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.f1{
+    text-decoration: none;
+    color: white;
+}

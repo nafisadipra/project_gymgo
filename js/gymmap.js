@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 map.setView([lat, lon], 12);
 
                 const gymIcon = L.icon({
-                    iconUrl: './images/dumbbell-gym-svgrepo-com.svg',
+                    iconUrl: '../img/dumbbell-gym-svgrepo-com.svg',
                     iconSize: [32, 32],
                     iconAnchor: [16, 32],
                     popupAnchor: [0, -32]
@@ -123,7 +123,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         coords: [23.8179, 90.3654], 
                         name: "Flex Gym Dhanmondi", 
                         address: "Dhanmondi, Dhaka", 
-                        image: "./Images/risen-wang-20jX9b35r_M-unsplash.jpg" 
+                        image: "../images/risen-wang-20jX9b35r_M-unsplash.jpg" 
                     },
                     { 
                         coords: [23.7762, 90.3847], 
