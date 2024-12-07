@@ -1,0 +1,293 @@
+
+.info{
+    height: 30vw;
+    
+}
+.face{
+    margin-left: 4vw;
+    background-color: beige;
+    width: 8vw;
+    height: 8vw;
+    margin-top: 3vw;
+    border-radius: 2vw;
+}
+.face1{
+    
+    margin-left: 1vw;
+    height: 8vw;
+    width: 6vw;
+    
+}
+.name{
+    margin-top:3vw;
+    padding-left: 4vw;
+    font-size:1.5vw;
+}
+.t1{
+    margin-top: 2vw;
+}
+.tab{
+    margin-left: 4vw;
+    font-size: 1.5vw;
+    margin-bottom: 4vw;
+    
+}
+.main{
+    height: 30vw;
+    display: flex;
+    
+}
+.sub1{
+ position: relative;
+   margin-top: 52px;
+   margin-left: 100px;
+   margin-bottom: 80px;
+   overflow: hidden;
+    width: 21.3vw;
+    height: 24vw;
+    border-radius: 1vw;
+    border: 0.1vw solid #4fff82;
+    box-shadow: 0 0 10px 2px rgba(79, 255, 130, 0.6),
+                0 0 30px 5px rgba(79, 255, 130, 0.4);
+    
+}
+.slide-image {
+    position: absolute;
+    width: 100%; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    bottom: -100%; /* Start completely outside the bottom of the div */
+    animation: slide-up 0.8s ease-in-out forwards; /* Animation for sliding effect */
+  }
+
+  @keyframes slide-up {
+    0% {
+      bottom: -100%; /* Start outside the bottom */
+    }
+    100% {
+      bottom: 0.5%; /* Midway point */
+    }
+
+  }
+  /* animation.css */
+:root {
+    --premium-timing: cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+body {
+    opacity: 0;
+    animation: pageLoad 0.7s var(--premium-timing) forwards;
+}
+
+#header-logo-container {
+    opacity: 0;
+    transform-origin: left center;
+    animation: smoothSlide 0.7s var(--premium-timing) forwards;
+}
+
+.form-signin,
+.container,
+main,
+section {
+    opacity: 0;
+    transform-origin: center;
+    animation: smoothScale 0.7s var(--premium-timing) 0.1s forwards;
+    will-change: transform, opacity;
+}
+
+form>*,
+.container>*,
+main>*,
+section>* {
+    opacity: 0;
+    animation: smoothFade 0.6s var(--premium-timing) forwards;
+    will-change: transform, opacity;
+}
+
+/* Optimized stagger delays */
+form> :nth-child(1) {
+    animation-delay: 0.15s;
+}
+
+form> :nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+form> :nth-child(3) {
+    animation-delay: 0.25s;
+}
+
+form> :nth-child(4) {
+    animation-delay: 0.3s;
+}
+
+form> :nth-child(5) {
+    animation-delay: 0.35s;
+}
+
+/* Refined keyframes */
+@keyframes pageLoad {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes smoothFade {
+    0% {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes smoothSlide {
+    0% {
+        opacity: 0;
+        transform: translateX(-12px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes smoothScale {
+    0% {
+        opacity: 0;
+        transform: scale(0.98);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Smooth interactive elements */
+a,
+button,
+input,
+select,
+textarea {
+    transition: all 0.4s var(--premium-timing);
+    will-change: transform;
+}
+
+/* Background elements */
+#background-video,
+.background-image {
+    opacity: 0;
+    animation: pageLoad 0.9s var(--premium-timing) forwards;
+}
+
+/* Enhanced hover effects */
+button:hover,
+a:hover {
+    transform: translateY(-2px) scale(1.01);
+    transition: all 0.4s var(--premium-timing);
+}
+
+button:active,
+a:active {
+    transform: translateY(1px) scale(0.99);
+    transition: all 0.2s var(--premium-timing);
+}
+
+.page-exit {
+    opacity: 0;
+    transform: scale(0.98);
+    transition: all 0.4s var(--premium-timing);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    body {
+        animation-duration: 0.6s;
+    }
+
+    .form-signin,
+    .container,
+    main,
+    section {
+        animation-duration: 0.6s;
+    }
+
+    form>*,
+    .container>*,
+    main>*,
+    section>* {
+        animation-duration: 0.5s;
+    }
+
+    /* Tighter stagger on mobile */
+    form> :nth-child(1) {
+        animation-delay: 0.1s;
+    }
+
+    form> :nth-child(2) {
+        animation-delay: 0.15s;
+    }
+
+    form> :nth-child(3) {
+        animation-delay: 0.2s;
+    }
+
+    form> :nth-child(4) {
+        animation-delay: 0.25s;
+    }
+
+    form> :nth-child(5) {
+        animation-delay: 0.3s;
+    }
+
+    /* Reduced motion for better mobile performance */
+    button:hover,
+    a:hover {
+        transform: translateY(-1px) scale(1.005);
+    }
+}
+.cart{
+    margin-left: 20vw;
+    display: flex;
+    
+
+}
+.sub2{
+
+   background-image: url(./Images/philip-myrtorp-46Y946UVyfw-unsplash.jpg);
+   background-size: cover;
+    position: relative;
+    margin-top: 52px;
+    margin-left: 2vw;
+    margin-bottom: 80px;
+    color: #4fff82;
+    overflow: hidden;
+     width: 13vw;
+     height: 13vw;
+     border-radius: 1vw;
+     border: 0.1vw solid #4fff82;
+     box-shadow: 0 0 10px 2px rgba(79, 255, 130, 0.6),
+                 0 0 30px 5px rgba(79, 255, 130, 0.4);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateY(0);
+     
+
+}
+.mem{
+    text-align: center;
+}
+
+
+  
+  .sub2:hover {
+    transform: translateY(-10px);
+  }
+

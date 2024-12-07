@@ -1,0 +1,270 @@
+.product-section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(28, 28, 28);
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.list {
+    width: 30%;
+    text-align: center;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.list:hover {
+    transform: scale(1.05);
+}
+
+.list img {
+    max-width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+
+.list h4 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* Product Preview Styles */
+.product-preview {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.preview {
+    display: none;
+    width: 60%;
+    max-width: 400px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.preview.active {
+    display: block;
+}
+
+.preview .fas.fa-times {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.preview img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.preview .stars {
+    color: gold;
+    margin: 10px 0;
+}
+
+.preview .price {
+    font-size: 24px;
+    color: #4CAF50;
+    margin: 15px 0;
+}
+
+.preview .button {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.preview .button a,
+.preview .button input {
+    flex: 1;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.preview .buy {
+    background-color: #2196F3;
+}
+
+.preview .cart {
+    background-color: #4fff82;
+}
+
+/* Cart Styles */
+.cart_tab {
+    width: 400px;
+    max-width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -400px;
+    background-color: white;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    transition: right 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    z-index: 2000;
+}
+
+body.activeTabCart .cart_tab {
+    right: 0;
+}
+
+.cart_tab h1 {
+    padding: 20px;
+    margin: 0;
+    border-bottom: 1px solid #eee;
+}
+
+.cart_tab .listCart {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.cart_tab .btn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 1px solid #eee;
+}
+
+.cart_tab .btn button {
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+}
+
+.cart_tab .btn .close {
+    background-color: #2196F3;
+}
+
+.cart_tab .btn .checkout {
+    background-color: #4fff82;
+}
+
+/* Cart Item Styles */
+.cart-item {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    align-items: center;
+}
+
+.cart-item img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.cart-item .content {
+    flex: 1;
+}
+
+.cart-item h3 {
+    margin: 0 0 5px 0;
+    font-size: 16px;
+}
+
+.cart-item .price {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.quantity button {
+    padding: 5px 10px;
+    border: none;
+    background: #eee;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.quantity span {
+    min-width: 20px;
+    text-align: center;
+}
+
+.total {
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    border-top: 1px solid #eee;
+}
+
+/* Slider Styles */
+.slick-carousel-container {
+    position: relative;
+    padding: 0 1vw;
+    margin-bottom: 20px;
+}
+
+.slick-carousel::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.slick-carousel img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 0;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #4fff82;
+    font-size: 7vw;
+    font-weight: bold;
+    text-align: center;
+    z-index: 2;
+}
+
+.slick-dots li button:before {
+    color: #4fff82;
+}

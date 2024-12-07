@@ -1,0 +1,106 @@
+.top-container {
+    background-image: url(../img/Chris-Chapman_3677-1024x683.webp);
+    background-size: 100%;
+    height: 30vw;
+    margin: 0.74vw 0vw 0vw 0vw;
+    backdrop-filter: blur(10px);
+    border: 1px solid #4fff82;
+    box-shadow: 0 0 20px 4px rgba(79, 255, 130, 0.6),
+                0 0 40px 8px rgba(79, 255, 130, 0.4);
+    border-radius: 15px;
+}
+.slogan{
+    position:absolute;
+    font-size: 5vw;
+    padding: 5vw 6vw 0vw 0vw;
+    margin-top:8vw;
+    margin-left: 15vw;
+    color: #4fff82;
+
+}
+.container3{
+
+}
+.find{
+    text-align: center;
+    font-size: 3vw;
+    color: #f8f0f0;
+    
+}
+.search {
+    margin-left:10vw;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.search input[type="text"] {
+    padding-top: 1.5vw;
+    padding-left: 1vw;
+    padding-right: 20vw;
+    padding-bottom: 0.5vw;
+    width: 30vw;
+    font-size: 17px;
+    border-radius:9px;
+    border: 1px solid #4fff82;
+    border-radius: 15px;
+    background-color: rgb(141, 141, 141);
+
+}
+.sb{
+    border-radius: 7vw;
+    border-color: #4fff82;
+    margin-left: 1vw;
+}
+.filb{
+    margin-left: 3vw;
+    padding-bottom: 0.2vw;
+    padding-top: 0.2vw;
+    padding-right: 3vw;
+    font-size: 1.5vw;
+    color: rgb(94, 91, 91);
+    border-color: 1px solid #4fff82;
+}
+.container4{
+    height: 60vw;
+    display: flex;
+    margin-bottom: 0.7vw;
+    
+}
+.sec1{
+    border: 3vw;
+    margin-top: 0.5vw;
+    width: 40vw;
+    height: 40vw;
+    background-color: black;
+}
+.sec2{
+    margin-top: 0.5vw;
+    border: 3vw;
+    margin-left: 0.25vw;
+    width: 60vw;
+    height: 40vw;
+    border: .2vw solid#4fff82;
+    background-color: rgb(250, 250, 255);
+
+}
+.f1{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.g1{
+    height: 100%;
+    width: 100%;
+}
+
+.gym-details {
+    height: 100%;
+    width: 100%;
+    color:#4fff82;
+    border: .2vw solid#4fff82;
+    font-size: xx-large;
+}
+
+.gym-details h3{
+    margin-top: 80%;
+}
