@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/base.css">
-    <link rel="stylesheet" href="./adminViewOrder.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/adminViewOrder.css">
     <title>GYM GO</title>
 </head>
 <body>
     <video class="background-video" autoplay muted loop>
-        <source src="./Images/vecteezy_dark-futuristic-low-poly-surface-background-with-the-gentle_40577564.mp4" type="video/mp4">
+        <source src="../Images/vecteezy_dark-futuristic-low-poly-surface-background-with-the-gentle_40577564.mp4" type="video/mp4">
     </video>
     <header>
         <div class="head-container">
@@ -38,6 +38,7 @@
         </div>
     </header>
     <main id="main-section" style="padding: 0vw 1.5vw;">
+
         <table class="styled-table">
             <thead>
                 <tr>
@@ -51,9 +52,7 @@
                     <th>Confirmation</th>
                 </tr>
             </thead>
-            <tbody id="tableBody">
-                
-            </tbody>
+            <tbody id="tableBody"></tbody>
         </table>
 
     </main>
@@ -89,7 +88,7 @@
         </div>
     </footer>
     <script>
-        // Sample data - replace with your actual data
+        
         const tableData = [
             {productName: "Protein Shake", productId: "PS001", orderId: "ORD123", quantity: 2, price: "$29.99", payment: "Confirmed"},
             {productName: "Gym Belt", productId: "GB002", orderId: "ORD124", quantity: 1, price: "$19.99", payment: "Pending"},
@@ -98,7 +97,7 @@
             {productName: "Dumbbell Set", productId: "DS005", orderId: "ORD127", quantity: 1, price: "$99.99", payment: "Pending"}
         ];
 
-        // Function to populate table with auto-incrementing numbers
+        
         function populateTable() {
             const tableBody = document.getElementById('tableBody');
             tableBody.innerHTML = '';
@@ -117,17 +116,12 @@
                     <td>${data.payment}</td>
                     <td><button onclick="confirmOrder(${index})" class="top-button">Confirm</button></td>
                 `;
-                
                 tableBody.appendChild(row);
             });
         }
-
-        // Function to handle order confirmation
         function confirmOrder(index) {
             alert(`Order ${tableData[index].orderId} confirmed!`);
         }
-
-        // Initialize table
         window.onload = populateTable;
     </script>
 </body>    
